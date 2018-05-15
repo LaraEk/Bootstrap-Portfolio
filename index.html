@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Portfolio</title>
-    <link rel="icon" type="image/png" href="images/youdidverywell.png" />
-    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+    <link rel="icon" type="image/png" href="assets/images/youdidverywell.png" />
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <!-- Bootstrap rel links below: all three of them-->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,9 +15,10 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- End Boostrap rel links -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"
   </head>
 
-  <body style="background-image: url(images/seigaiha.png)">
+  <body>
 
     <!-- Below is just the Navbar -->
     <nav class="navbar navbar-default" style="background-color: #fff">
@@ -51,7 +52,7 @@
             </div>
             <div class="row">
             <div class="col-md-4">
-                <img src="images/profilepicsmall.jpg" alt="It's me!" class="img-rounded" style="height: 200px">
+                <img src="assets/images/profilepicsmall.jpg" alt="It's me!" class="img-rounded" style="height: 200px">
             </div>
             <div class="col-md-8" style="padding: 0 0 0 50px">
                 <p>
@@ -70,15 +71,24 @@
         <div class="col-md-4">
             <div class="card">
             <div class="card-body">
-                <h3 class="card-title" style="margin: 20px 0 0 0; color:#4aaaa5" >You can find me online: </h4>
+                <h3 class="card-title" style="margin: 20px 0 0 0; color:#4aaaa5" >You can find me online: </h3>
                 <h6 class="card-subtitle mb-2 text-muted" style="background-color:#4aaaa5; font-size: 16px; color: #fff" >Professionally:</h6>
-                <p class="card-text" style="margin:15px">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <ul>
+                    <li><a href="https://github.com/laraek">Github</a></li> 
+                    <li><a href="https://www.linkedin.com/in/lara-ek/">LinkedIn</a></li> 
+                    <li><a href="https://angel.co/lara-ek">AngelList</a></li> 
+                </p>
+                </ul>
                 <h6 class="card-subtitle mb-2 text-muted" style="background-color:#4aaaa5; font-size: 16px; color: #fff" >As a Writer:</h6>
                 <p class="card-text" style="margin:15px">
                     <ul>
                     <li><a href="https://www.amazon.com/Lara-Ek/e/B01N4F2TQD">Amazon</a></li> 
                     <li><a href="https://www.goodreads.com/author/show/5441095.Lara_Ek">Goodreads</a></li> </p>
                     </ul>
+            <h3 class="card-title" style="margin: 20px 0 0 0; color:#4aaaa5" >Contact Me: </h3>
+                <p>Interested in contacting me? </p> 
+                <br/>
+                <button class="prettybluebutton"><a href="contact.html"> Drop me a line</a>!</button> <!-- FIX THIS -->
             </div>
             </div>
         </div>
